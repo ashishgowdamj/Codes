@@ -1,0 +1,18 @@
+//1.find area and circumference of circle
+
+#include<stdio.h>
+//#include<conio.h>
+int main()
+{
+    int r,pi=3.14;
+    double area,circum;
+    //clrscr();
+    printf("\n Enter the radius of circle:");
+    scanf("%d",&r);
+    area = pi*r*r;
+    circum = 2*pi*r;
+    printf("\n Area of circle = %f",area);
+    printf("\n Circumference of circle = %f", circum);
+    //getch();
+    return 0;
+}
